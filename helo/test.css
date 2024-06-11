@@ -3,7 +3,7 @@ body {
     padding: !important;
 }
 
-#header {
+.header {
     border: 1px;
     height: 100%;
     width: 100%;
@@ -12,4 +12,44 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.section1 {
+    width: 100%;
+    height: 100px;
+    right: 500px;
+    text-align: right;
+}
+
+.information {
+    color: black;
+    margin-top: 38px;
+}
+
+/*class ket hop chung */
+.information,
+.signin {
+    text-decoration: none;
+    float: right;
+    /*de cach sang phai */
+
+    text-transform: uppercase;
+    display: inline-block;
+    /* de tao thanh 2 block khong lien ket */
+}
+
+.signin {
+    margin-top: 38px;
+    margin-right: 91px;
+    text-decoration: none;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    /*chỉnh độ cong của border*/
+    border-radius: 20px;
+    margin-left: 88px;
+    border-width: 3px;
 }
