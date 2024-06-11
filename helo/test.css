@@ -14,9 +14,9 @@ body {
 
 }
 
-.red {
+/* .red {
     border: 1px solid red;
-}
+} */
 
 .section1 {
     width: 100%;
@@ -36,7 +36,8 @@ body {
     text-decoration: none;
     float: right;
     /*de cach sang phai */
-
+    /* để tăng về chiều rộng và cao */
+    padding: 14px;
     text-transform: uppercase;
     display: inline-block;
     /* de tao thanh 2 block khong lien ket */
@@ -49,7 +50,24 @@ body {
     color: greenyellow;
     border: 1px solid greenyellow;
     /*chỉnh độ cong của border*/
-    border-radius: 20px;
+    border-radius: 50%;
     margin-left: 88px;
     border-width: 3px;
+}
+
+.LoGo {
+    background-image: url(./motivation.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 95px;
+    height: 160px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 33px;
+    text-size-adjust: initial;
+    color: crimson;
+    height: 47px;
+    font-size: 28px;
 }
