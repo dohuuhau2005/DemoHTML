@@ -1,7 +1,15 @@
-h1{
-    color: rgb(255, 0, 111);
-    /* xai google font */
-        font-family: "Lato", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+body {
+    margin: !important;
+    padding: !important;
+}
+
+#header {
+    border: 1px;
+    height: 100%;
+    width: 100%;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
