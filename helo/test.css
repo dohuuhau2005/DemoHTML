@@ -7,7 +7,7 @@ body {
     border: 1px;
     height: 100%;
     width: 100%;
-    background-image: url("./background.jpg");
+    background-image: url("./pexels-photo.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body {
     height: 100px;
     right: 500px;
     text-align: right;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .information {
@@ -53,8 +53,8 @@ body {
     margin-top: 38px;
     margin-right: 91px;
     text-decoration: none;
-    color: greenyellow;
-    border: 1px solid greenyellow;
+    color: #782d84;
+    border: 1px solid #782d84;
     /*chỉnh độ cong của border*/
     border-radius: 50%;
     margin-left: 88px;
@@ -93,4 +93,26 @@ body {
 
 .textbutton {
     text-align: center;
+}
+
+.left,
+.center,
+.right {
+    margin-top: 65px;
+    width: 33%;
+    /* chia chieu rong va lay het */
+    display: inline-block;
+    text-align: center;
+}
+
+/* class cha +  class con để xác định đúng phần muốn sửa */
+.contentcenter img {
+    width: 53px;
+    height: 48px;
+}
+
+.contentcenter span {
+    display: block;
+    margin-top: 20px;
+    font-size: 31px;
 }

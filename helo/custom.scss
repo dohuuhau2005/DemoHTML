@@ -1,0 +1,136 @@
+body {
+    margin: !important;
+    padding: !important;
+}
+
+.header {
+    border: 1px;
+    height: 100%;
+    width: 100%;
+    background-image: url("./pexels-photo.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .section1 {
+        width: 100%;
+        height: 100px;
+        right: 500px;
+        text-align: right;
+
+        /* background-color: antiquewhite; */
+        .information {
+            color: black;
+            margin-top: 38px;
+        }
+
+
+
+        /*class ket hop chung */
+        .information,
+        .signin {
+            text-decoration: none;
+            float: right;
+            /*de cach sang phai */
+            /* để tăng về chiều rộng và cao */
+            padding: 14px;
+            text-transform: uppercase;
+            display: inline-block;
+            /* de tao thanh 2 block khong lien ket */
+            /* tao cai click ban tay */
+            cursor: pointer;
+        }
+
+        .signin {
+            margin-top: 38px;
+            margin-right: 91px;
+            text-decoration: none;
+            color: #782d84;
+            border: 1px solid #782d84;
+            /*chỉnh độ cong của border*/
+            border-radius: 50%;
+            margin-left: 88px;
+            border-width: 3px;
+        }
+    }
+
+    .LoGo {
+        background-image: url(./motivation.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 95px;
+        height: 160px;
+    }
+
+    .contentcenter {
+
+        /* class cha +  class con để xác định đúng phần muốn sửa */
+        .contentcenter img {
+            width: 53px;
+            height: 48px;
+        }
+
+        .contentcenter span {
+            display: block;
+            margin-top: 20px;
+            font-size: 31px;
+        }
+
+        .left,
+        .center,
+        .right {
+            margin-top: 65px;
+            width: 33%;
+            /* chia chieu rong va lay het */
+            display: inline-block;
+            text-align: center;
+        }
+
+        span {
+            display: block;
+            margin-top: 20px;
+            font-size: 31px;
+        }
+
+        img {
+            width: 53px;
+            height: 48px;
+        }
+    }
+
+
+
+    .text {
+        text-align: center;
+        margin-top: 33px;
+        text-size-adjust: initial;
+        color: crimson;
+        height: 47px;
+        font-size: 28px;
+    }
+
+    .textbutton {
+        text-align: center;
+
+        .button {
+            text-align: center;
+            background: linear-gradient(320deg, #496b0d 0%, #429321 100%);
+            border-radius: 50px;
+            width: 106px;
+            height: 58px;
+            color: white;
+            box-shadow: aliceblue;
+            box-shadow: 11px 8px 9px 4px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+
+        }
+    }
+
+}
+
+/* .red {
+    border: 1px solid red;
+} */
+/* .green {
+    border: 1px solid greenyellow;
+} */
